@@ -23,7 +23,7 @@
     <main>
       <section id="section_one" class="bg_black">
         <div class="text_white py-2 font-size-2 container bg_black">
-        --> Content goes here chevronleft__
+          --> Content goes here --
         </div>
       </section>
 
