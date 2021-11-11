@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.align_items_center {
+    align-content: center;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+} li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    line-height: 106px;
+    vertical-align: middle;
+}
+
+.bg_black {
+    background-color: #1C1C1C;
+}
