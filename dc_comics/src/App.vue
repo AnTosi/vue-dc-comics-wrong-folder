@@ -1,28 +1,51 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header id="site_header d-flex container">
+      <div class="logo col-6">
+      </div>
+      
+      <div class="nav col-6">
+      </div>  
+    </header>
+    <main class="container">
+      <section id="section_one" class="bg_black">
+
+      </section>
+
+      <section id="section_two" class="d-flex justify_content_around align_content_center">
+        fascia blu
+      </section>
+    </main>
+
+    <footer id="site_footer">
+      <div class="links">
+
+      </div>
+      <div class="bottom_page">
+
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+// #app {
+//   font-family: Avenir, Helvetica, Arial, sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   text-align: center;
+//   color: #2c3e50;
+//   margin-top: 60px;
+// }
 </style>
